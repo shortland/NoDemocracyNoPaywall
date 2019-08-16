@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         No Democracy? No Paywall.
+// @name         No Pay/Adwall - TheWashingtonPost
 // @namespace    https://github.com/shortland/NoDemocracyNoPaywall
 // @version      0.1.1
 // @description  Title.
@@ -8,7 +8,6 @@
 // @grant        none
 // ==/UserScript==
 
-console.log("No Democracy? No Paywall.");
 (doIt = function() {
     window.TWP = null;
     setTimeout(doIt, 10);
